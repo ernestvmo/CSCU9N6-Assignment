@@ -1,0 +1,34 @@
+64 13 32 32
+// The first line should contain the width and height of the
+// map and the width and height of each tile. A list of character to
+// tile mappings is then provided where each character is preceded by a
+// # character. The dot character always defaults to a blank space 
+// Note that the referenced files should be in the same directory as the
+// tile map.
+#l=cave/lava.png
+#g=cave/brick_left.png
+#m=cave/brick_up_middle.png
+#w=cave/brick_middle.png
+#n=cave/brick_right.png
+#b=cave/block_alone.png
+#p=cave/platform_single.png
+#c=other/coin.gif
+#d=other/diamond.gif
+// The actual tile map is preceded by the #map line
+#map
+gmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmn
+gmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmn
+gwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwn
+b..............................................................b
+b.........c.c.c.c...c..c.........c.c.c.........................b
+b.d....c..ppppppp...p..p....c....ppbpp..c.......bbb............b
+bppp...p...................ppp..........p...c.....bb...........b
+b..........................................cb......bb...c......b
+b...................c....c................cbb..........cb......b
+b..................cbc...b........c......cbbb.........cbb......b
+b..................bbb...bmmmmmn..p..gmmmmmmn.........bgmmmmmmmn
+gmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnlllllgmmmmmmmmmmmmmmmmmmmmmmmmmn
+gmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmn
+
+
+
